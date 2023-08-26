@@ -55,7 +55,7 @@
 			<div class="logo">
 				<a href="/ru/home/about"><img src="/static/img/maslov_logo_ru.png" border="0" alt="" /></a>
 			</div>
-			<div class="quote" onClick="location.href='/ru/quotes/1'">
+			<div class="quote" onClick="location.href='/ru/'">
 				<div class="aQuote">“Русские авторы исторических романов обыкновенно плохо знают историю. Исключение составляет граф Салиас: он ее совсем не знает”.</div>
 				<div class="anAuthor">В.О. Ключевский</div>
 			</div>
