@@ -1,0 +1,135 @@
+div.photoFrame{
+	position:relative;
+    left: 50%;
+    margin-left: -530px;
+	text-align:left;
+	width:1065px;
+}
+
+div.photoFrame div.pfLeft{
+	float:left;
+	width:241px;
+	height:1050px;
+	overflow:hidden;
+}
+
+div.photoFrame div.pfCenter{
+	float:left;
+	width:580px;
+	height:1050px;
+	overflow:hidden;
+}
+
+div.photoFrame div.pfRight{
+	float:left;
+	width:240px;
+	height:1050px;
+	overflow:hidden;
+}
+
+div.framePhoto{
+	position:relative;
+	left:0px;
+	opacity:0.6;
+}
+
+#pfimg1{
+	margin-top:930px;
+	background:url(../img/photo_frame/1.png) no-repeat center;
+	height:75px;
+	z-index:10;
+}
+
+#pfimg2{
+	top:0px;
+	z-index:10;
+	margin-top:90px;
+	background:url(../img/photo_frame/2.png) no-repeat center;
+	height:177px;
+}
+
+#pfimg3{
+	top:-45px;
+	z-index:9;
+	background:url(../img/photo_frame/3.png) no-repeat center;
+	height:227px;
+}
+
+#pfimg4{
+	top:-90px;
+	z-index:7;
+	background:url(../img/photo_frame/4.png) no-repeat center;
+	height:301px;
+}
+
+#pfimg5{
+	top:-130px;
+	z-index:8;
+	background:url(../img/photo_frame/5.png) no-repeat center;
+	height:172px;
+}
+
+#pfimg6{
+	top:-165px;
+	z-index:6;
+	background:url(../img/photo_frame/6.png) no-repeat right;
+	height:222px;
+}
+
+#pfimg7{
+	top:0px;
+	z-index:6;
+	margin-top:90px;
+	background:url(../img/photo_frame/7.png) no-repeat center;
+	height:161px;
+}
+
+#pfimg8{
+	top:-110px;
+	z-index:7;
+	margin-top:90px;
+	background:url(../img/photo_frame/8.png) no-repeat center;
+	height:168px;
+}
+
+#pfimg9{
+	top:-230px;
+	z-index:8;
+	margin-top:90px;
+	background:url(../img/photo_frame/9.png) no-repeat center;
+	height:214px;
+}
+
+#pfimg10{
+	top:-340px;
+	z-index:9;
+	margin-top:90px;
+	background:url(../img/photo_frame/10.png) no-repeat center;
+	height:211px;
+}
+
+#pfimg11{
+	top:-450px;
+	z-index:10;
+	margin-top:90px;
+	background:url(../img/photo_frame/11.png) no-repeat center;
+	height:231px;
+}
+
+
+div.fullPhoto{
+	position:fixed;
+	top:0;
+	text-align:center;
+	z-index:6666;
+	height:100%;
+	width:100%;
+	background:url(../img/black50.png);
+	display:none;
+	overflow:hidden;
+}
+
+div.fullPhoto img{
+	position:relative;
+	z-index:9999;
+}
