@@ -1,0 +1,284 @@
+@import url('photo_frame.css');
+
+body{
+	margin:0px;
+	padding:0px;
+	background:url(../img/main_bg.jpg) repeat-x;
+	background-color:#c4c4c4;
+	text-align:center;
+	}
+
+.clear{
+	clear:both;
+}
+
+#site{
+	position:relative;
+}
+
+div.archImg{
+	float:left;
+	margin:15px;
+	height:120px;
+	width:120px;
+}
+
+div.siteBody{
+	position:absolute;
+    left: 50%;
+    margin-left: -340px;
+	top: 0px;
+	width:680px;
+	height:935px;
+	z-index:999;
+}
+
+div.siteBody div.header{
+	width:680px;
+	height:111px;
+	background:url(../img/content_top.png) no-repeat bottom;
+}
+
+div.header div.logo{
+	float:left;
+	margin-top:15px;
+	text-align:left;
+	width:365px;
+	height:96px;
+}
+
+div.header div.quote{
+	cursor:pointer;
+	float:left;
+	text-align:left;
+	width:300px;
+	height:111px;
+	font-family:Tahoma;
+	font-size:10px;
+	color:#efefef;
+}
+
+div.quote div.aQuote{
+	padding-top:20px;
+	width:300px;
+	max-height:	62px;
+	overflow:hidden;
+}
+
+div.quote div.anAuthor{
+	width:300px;
+	height:16px;
+	text-align:right;
+}
+
+div.siteBody div.menu{
+	margin-left:1px;
+	width:676px;
+	height:32px;
+	padding-top:1px;
+	padding-left:1px;
+	padding-right:1px;
+	background:url(../img/menubar.jpg) no-repeat center;
+	font-family: "Times New Roman", Times, serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFF;
+}
+
+#m1, #m2, #m3, #m4, #m5{
+	float:left;
+	height:23px;
+	border-right:1px solid #575757;
+	padding-top:9px;
+	padding-left:3px;
+	padding-right:4px;
+}
+
+#m6{
+	float:left;
+	height:23px;
+	padding-top:9px;
+	padding-left:5px;
+	padding-right:3px;
+}
+
+#m1:hover, #m2:hover, #m3:hover, #m4:hover, #m5:hover, #m6:hover{
+	background:url(../img/white60.png);
+	cursor:pointer;
+	color:#292929;
+	text-decoration:underline;
+}
+
+div.subMenu{
+	position:absolute;
+	z-index:1000;
+	top:144px;
+	left:50%;
+	margin-left:-339px;
+}
+
+#sm1, #sm3{
+	position:relative;
+	border-bottom:1px solid #7c7c7c;
+}
+
+#sm3 {
+	margin-left:180px;
+}
+
+#sm1 div, #sm3 div{
+	padding:5px 5px 0px 5px;
+	height:25px;
+	color:#292929;
+	font-family: "Times New Roman", Times, serif;
+	font-size:12px;
+	font-weight:bold;
+	background:#cacaca;
+	border-left:1px solid #7c7c7c;
+	border-right:1px solid #7c7c7c;
+}
+
+#sm1 div:hover, #sm3 div:hover{
+	background:#dedede;
+	text-decoration:underline;
+}
+
+
+div.siteBody div.content{
+	width:680px;
+	height:745px;
+	background:url(../img/content_bg.png) repeat-y;
+}
+
+div.content div.actualContent{
+	padding-left:30px;
+	padding-right:20px;
+	width:617px;
+	height:725px;
+	overflow-y : scroll;
+}
+
+div.siteBody div.footer{
+	width:680px;
+	height:52px;
+	background:url(../img/footer.png) no-repeat;
+}
+
+div.flags{
+	position:absolute;
+	left:50%;
+	margin-left:280px;
+	top:5px;
+	width:100px;
+	z-index:1000;
+}
+
+div.flags div{
+	float:left;
+	width:20px;
+	height:12px;
+	margin-left:5px;
+	opacity:0.6;
+	filter: alpha(opacity=60);
+}
+
+div.flags div:hover{
+	opacity:1;
+	filter: alpha(opacity=100);
+	cursor:pointer;
+}
+
+div.flags div.flag_ru{
+	background:url(../img/flag_ru.png) no-repeat;
+}
+
+div.flags div.flag_uk{
+	background:url(../img/flag_uk.png) no-repeat;
+}
+
+div.article {
+	font-family: "Times New Roman", Times, serif;
+	font-size:18px;
+	color:#000;
+	text-align:justify;
+}
+
+div.article p{
+	text-indent:50px;
+	margin: 0; 
+	padding:0; 
+}
+
+div.readMore{
+	text-align:right;
+	font-weight:bold;
+}
+
+div.readMore:hover{
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+div.anArticle{
+	width:600px;
+	margin-top:20px;
+}
+
+div.anArticle div.artHeader{
+	height:50px;
+	width:600px;
+	background:url(../img/art_bg.jpg) no-repeat;
+}
+
+div.anArticle div.artHeader div.artTitleSect{
+	padding-left:5px;
+	padding-top:5px;
+	text-align:left;
+	float:left;
+	width:445px;
+}
+
+div.anArticle div.artHeader div.artTitleSect div.artSect {
+	color:#383838;
+	font-family:tahoma;
+	font-size:11px;
+}
+
+div.anArticle div.artHeader div.artTitleSect div.artSect  img{
+	margin-top:4px;
+}
+
+div.anArticle div.artHeader div.artTitleSect div.artSect a{
+	color:#383838;
+	font-style:italic;
+}
+
+div.anArticle div.artHeader div.docDownload{
+	float:left;
+	width:130px;
+	padding-top:16px;
+	margin-left:20px;
+	font-weight:bold;
+	font-size:16px;
+}
+
+div.anArticle div.artHeader div.docDownload:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+div.anArticle div.artBody{
+	text-align:justify;
+	width:573px;
+	margin-left:5px;
+	padding:8px;
+	font-size:14px;
+	border-left: 1px solid #55575a;
+	border-right: 1px solid #55575a;
+	border-bottom: 1px solid #55575a;
+}
+
+
+
+
+
